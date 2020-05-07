@@ -1,0 +1,117 @@
+input{
+    background-color: white;
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+body{
+    background-color: white;
+    font-family:Monospace;
+}
+
+table{
+    background-color: #99CC66;
+}
+
+/*---multiset / box bullshit--*/
+
+.red {
+    color:white;
+    background:red;
+}
+
+.green {
+    color:white;
+    background:green;
+}
+
+.blue {
+    color:white;
+    background:blue;
+}
+
+.purple {
+    color:white;
+    background:purple;
+}
+
+.red, .green, .blue, .purple {
+    padding:0 5px;
+    margin:2px;
+}
+
+/*-- generate sample space --*/
+
+.lightblue {
+    background:lightblue;
+    text-align:center;
+}
+
+/*-- embedded styles from index.htm --*/
+
+a.hov:link {background:yellow;text-decoration:none;color:black;}
+a.hov:hover, a.hov:active {color:white;background:red;}
+a.nohov:link {text-decoration:none;color:black;}
+a.nohov:hover, a.nohov:active {color:white;background:red;}
+
+/*-- index styles, for to make things not break entirely --*/
+
+#menu table {
+    background:#DDFFFF;
+    font-family:serif;
+    border:1px solid black;
+    margin:5px auto;
+    vertical-align: top;
+}
+.deco {
+    text-align:center;
+    background:#AADDDD;
+    width:15px;
+}
+
+.deco ul {
+    list-style-type: none;
+    margin:0;
+    padding:5px;
+}
+
+.column {
+    height:392px;
+    padding:5px;
+    display:block;
+}
+
+th,tr {
+    text-align: left;
+    vertical-align: top;
+}
+
+.menu img {
+    vertical-align: middle;
+}
+
+ul.menu {
+    margin:5px 5px;
+    padding:0;
+    
+}
+
+ul.menu li {
+    margin:5px 0;
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+/*-- triangle table --*/
+#triangle tr {
+    text-align: center;
+}
+#triangle th {
+    background:lightgray;
+}
+
