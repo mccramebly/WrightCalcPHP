@@ -344,6 +344,26 @@ a.backToTop:before {
     padding-right:10px;
     
 }
+
+#whycontainer {
+    width:50%;
+    margin:auto;
+    vertical-align: top;
+    color: #f1f1f1;
+    overflow:auto;
+}
+
+#whycontainer .artmenu {
+    width:85%;
+    
+}
+
+@media only screen and (max-width:900px) {
+    #whycontainer {
+        margin-top:10px;
+        width:100%;
+    }
+}
 /* dues calculator */
 
 #annualDuesCalc {
