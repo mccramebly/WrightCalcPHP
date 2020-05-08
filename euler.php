@@ -12,17 +12,15 @@
     <!-- <SCRIPT type="text/javascript" src="primes.js"></script> -->
 </head>
 
-<body>
+<body id="euler">
     <?php include('nav.html'); ?>
     <div class="artmenu">
         <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <form name="theForm">
             <input type="text" name="probno" size=6 value='' onClick="euload()" /> <input name='run' type="button" value="run" onClick="eucall()" />
-            <table border=1 noshade bgcolor=99CC66>
-                <tr>
-                    <td><textarea name="input" rows=25 cols=80></textarea></td>
-                </tr>
-            </table>
+            
+            <textarea name="input" rows=25 cols=80></textarea>
+                
         </form>
         <script>
             menu = [

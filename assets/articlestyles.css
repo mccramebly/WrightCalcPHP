@@ -358,10 +358,17 @@ a.backToTop:before {
     
 }
 
+
 @media only screen and (max-width:900px) {
     #whycontainer {
         margin-top:10px;
         width:100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    #euler .artmenu {
+        width:85%;
     }
 }
 /* dues calculator */

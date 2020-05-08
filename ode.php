@@ -16,7 +16,8 @@
         <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h1>Initial Value ODE</h1>
-            <label>f'(x) = </label><input type="text" name="input" tabindex="1" onKeyUp="enter(event)">
+            <label>f'(x) = </label>
+            <input type="text" name="input" tabindex="1" onKeyUp="enter(event)">
             <label>Left x= </label><input type="text" name="x1" size=8 value="" tabindex="3" />
             <label>Right x= </label><input type="text" name="x2" size=8 value="" tabindex="4" />
             <label>Left y = </label><input type="text" name="y1" size=8 value="" tabindex="5" />
