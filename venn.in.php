@@ -11,7 +11,7 @@
 <body onget="self.focus()">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script type="text/javascript" src="myfunctions.js"></script>
         <form name='theForm'>
 
@@ -320,9 +320,9 @@
             function draw() {
                 if (vx == '') vx = 0
                 if (vc == 0 && vb != 0)
-                    window.open('bayes.htm?' + nA + '&' + nB + '&' + vab + '&' + va + '&' + vb + '&' + vx)
+                    window.open('bayes.php?' + nA + '&' + nB + '&' + vab + '&' + va + '&' + vb + '&' + vx)
                 else
-                    window.open('venn.htm?' + nA + ';' + nB + ';' + nC + ';' + va + ';' + vab + ';' + vb + ';' + vac + ';' + vabc + ';' + vbc + ';' + vc + ';' + vx)
+                    window.open('venn.php?' + nA + ';' + nB + ';' + nC + ';' + va + ';' + vab + ';' + vb + ';' + vac + ';' + vabc + ';' + vbc + ';' + vc + ';' + vx)
             }
             // --------------------------
             function demo() {
@@ -362,7 +362,7 @@
                     v1 = va + vb + vc;v2 = vab + vac + vbc;v23 = v2 + vabc
                 }
                 calc()
-                // window.open('venn.htm?'+nA+';'+nB+';'+nC+';'+va+';'+vab+';'+vabc+';'+vac+';'+vb+';'+vbc+';'+vc+';'+vx)
+                // window.open('venn.php?'+nA+';'+nB+';'+nC+';'+va+';'+vab+';'+vabc+';'+vac+';'+vb+';'+vbc+';'+vc+';'+vx)
             }
             // --------------------------
             function nv(x) {

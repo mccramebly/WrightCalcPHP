@@ -588,7 +588,7 @@
             calc()
             val1 = escape(paradata.replace(/\n/g, "<nl>").replace(/[;&]/g, "<sc>"))
             localStorage.setItem("graphdata", val1)
-            window.open("graphs.htm")
+            window.open("graphs.php")
         }
     </script>
     <!--
@@ -646,7 +646,7 @@ END FUNCTION
 REM Multiplications minimized
  -->
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Parabolas and Other Second Degree Equations</h1>
         <form name="theForm">
             <div id="inputDiv">

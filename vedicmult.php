@@ -138,7 +138,7 @@
     </script>
     <?php include('nav.html'); ?>
     <div id="calctainer">
-        <a href="index.htm"><img src="assets/calcheadertrim.png" class="calcheader"></a>
+        <a href="index.php"><img src="assets/calcheadertrim.png" class="calcheader"></a>
         <h1>Vedic Multiplication</h1>
         <form name="theForm">
             <span><label for="a">First number to multiply:</label>

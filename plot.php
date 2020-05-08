@@ -11,7 +11,7 @@
 <body onLoad="self.focus(); document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script type="text/javascript" src="myfunctions.js"></script>
         <script type="text/javascript" src="statfns.js"></script>
         <form name="theForm">
@@ -319,7 +319,7 @@
                 graphdata = "x: " + xval[0] + " to " + xval[yval.length - 1] + ';y: ' + yfrom + " to " + ythru + ';' + ff[0] + ";" + graphdata
                 val1 = escape(graphdata.replace(/\n/g, "<nl>").replace(/;/g, "<sc>"))
                 localStorage.setItem("graphdata", val1)
-                window.open('graphs.htm')
+                window.open('graphs.php')
             }
             // ------------------------------------------------------- */
             function calc() {
@@ -612,7 +612,7 @@
                         if (yval[i + 1] == 0) i++
                     }
                 }
-                window.open('newton.htm?' + newf1)
+                window.open('newton.php?' + newf1)
                 pop() // restore limits
             }
             // ------------------------------------------------------- */

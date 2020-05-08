@@ -10,8 +10,8 @@
 
 <body>
     <?php include('nav.html'); ?>
-    <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+    <div class="artmenu" id="foreword">
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <h2>Foreword</h2>
         <p>I would like to begin by thanking the students who helped me with this project. It started out as programming assignments for students in Engineering 190, Introduction to Programming for Engineers. Subsequently I asked students in Math 99, 118, 125 and 140 to use the calculators and provide us with feedback. Students had complained that the Math curriculum spends too much time teaching process instead of concept and teaching archaic skills such as looking up cumulative distribution function values in a table. Both of these issues are eliminated by using a smart calculator.</p>
         <p>The programs are written in Javascript instead of some other programming language like Python, C++ or Java because it is currently the most universal language. It works on every O/S from Windows to Linux to MAC to Android. All it needs is a browser like IE or Safari or FireFox or Chrome or Opera. It doesn't matter whether you are using a desktop, a laptop, a netbook, a pad or a smart phone. Students don't have to install any software. They can be writing working programs from the very first class meeting. </p> 
@@ -24,15 +24,17 @@
         <h2>Progression of Technology</h2>
         <p>So, let's look at a typical "math" problem. Let's find the square root of 2.759 using various forms of Math Technology starting with the tools used in 1950. Notice that the tools used in 1950 and 1970 have already been deprecated; they are no longer being taught. What we need to do is to move past the 1990 technology that is now in use and take advantage of technology introduced in the current millennium.</p>
         <ul>
-            <li><a href="why2.htm">1950:</a> Manual calculations and slide rules</li>
-            <li><a href="why3.htm">1970:</a> Four function calculators</li>
-            <li><a href="why4.htm">1990:</a> Scientific calculators</li>
-            <li><a href="why5.htm">2010:</a> Smart calculators</li>
+            <li><a href="#about1950">1950:</a> Manual calculations and slide rules</li>
+            <li><a href="#about1970">1970:</a> Four function calculators</li>
+            <li><a href="#about1990">1990:</a> Scientific calculators</li>
+            <li><a href="#about2010">2010:</a> Smart calculators</li>
         </ul>
+        
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
-    <div class="artmenu">
+    <div class="artmenu" id="about1950">
         <h2>1950: Manual calculations</h2>
         <img border="0" vspace="10" hspace="10" src="pencil.jpg" width="200" height="" alt="pencil" title="pencil" style="float:right" />
         <ul>
@@ -64,6 +66,7 @@
                 ln(2.76) = 0.4409 ÷ 0.4343 = 1.0152<br>
                 1.0152/2= 0.5076; <i>e</i>^0.5076= 1.661</li>
         </ul>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -82,10 +85,11 @@
             <li>C is value : 1.18 &lt; 1.195 &lt; 1.20</li>
             <li>D is 1.39 × C : 1.64 &lt; 1.661 &lt; 1.68</li>
         </ul>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
-    <div class="artmenu">
+    <div class="artmenu" id="about1970">
         <h2>1970: Four function calculators</h2>
         <img alt="4 function" title="4 function" />
 
@@ -113,11 +117,11 @@
         </ol>
         then, to verify the answer:
         1.6610237806846717² = 2.7590000000000003
-        &nbsp;
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
-    <div class="artmenu">
+    <div class="artmenu" id="about1990">
         <h2>1990: Scientific calculators</h2>
         <p>Wow! It's like we had died and gone to Heaven! One push of the button and we get incredible precision.</p>
         <a href="../graduate/CASIO.fx115ms.HTM" target="julius"><img src="../graduate/fx115.jpg" alt="Casio calculator" title="Casio calculator" /></a>
@@ -127,11 +131,12 @@
         <p><a href="calc.htm?sqrt(2.759)" target="julius">√(2.759) =</a> 1.6610237806846715</p>
         <p><a href="calc.htm?log(2.759)" target="julius">log(2.759) =</a> 0.44075170047918544</p>
         <p><a href="calc.htm?ln(2.759)" target="julius">ln(2.759) =</a> 1.014868295235149</p>
-        <p>But they can do so much more. Let's take a look at some of these capabilities.</p>&nbsp;
+        <p>But they can do so much more. Let's take a look at some of these capabilities.</p>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
-    <div class="artmenu">
+    <div class="artmenu" id="about2010">
         <h2><big>2010: Smart calculators</big></h2>
         <h2>What makes them so smart</h2>
         <p>All of us use smart software. Anytime you want a computer to do something for you without you having to tell it how it is to be done, you are using smart software. For example, you are using smart software when you use a GUI (Graphical User Interface) to click on an icon instead of entering a command line. Other examples are when you use a search engine to find something when you aren't too sure what you are looking for, or when your word processor checks your spelling as you are typing, or when gmail offers to look up an address in an incoming email. Software like Wolfram Alpha tries to anticipate what you are looking for and will tell you everything it knows relating to any topic. So when you ask it about
@@ -139,7 +144,7 @@
         <p><i>Assuming the input is the phrase instead of the television series or a music album or a music work then "the root of all evil" ...is the love of money.
                 (The quote "Money is the root of all evil" is misattributed to Jesus Christ; it was actually stated as "The love of money is the root of all evil" by the Apostle Paul in his letter to Timothy in 1 Timothy 6:10.)</i></p>
         <p>Smart software tries to be helpful by telling you everything it knows instead of having you specify what information you need. So let's look at some of the things that a smart calculator like the Wright Calculator can do for you.</p> &nbsp;
-
+<a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -172,6 +177,7 @@ slope= 2; y intercept= -5; x intercept= 5/2
 n= 6; &Sigma;x= 3; &Sigma;x&sup2;= 19; &Sigma;y= -24; &Sigma;xy = 23
 Linear regression: y =  2x -5; r^2=1.000
 </pre>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -201,6 +207,7 @@ Linear regression: y =  2x -5; r^2=1.000
  Focal Diameter: 1
 
  Factors: ( X -4)( X +5)</pre>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -232,6 +239,7 @@ x^2 -2.759 = 0<br>Quadratic equation: x = -4121/2481 & x = 4121/2481
  -m -4px +6x +2y = 0
  x=( m -2y)/( -4p +6)
 </pre>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -272,6 +280,7 @@ x^2 -2.759 = 0<br>Quadratic equation: x = -4121/2481 & x = 4121/2481
         <p>0, 1/2, 0, -6</p>
         <p>0, 0, -1, -9</p>
         <p>-----------------------</p>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -302,6 +311,7 @@ x^2 -2.759 = 0<br>Quadratic equation: x = -4121/2481 & x = 4121/2481
         <p>angles (A,B,C): 33°, 137.0939°, 9.9061°</p>
         <p>is an obtuse scalene triangle</p>
         <p>area: 1.7203 perimeter: 10.2635</p>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -314,6 +324,7 @@ x^2 -2.759 = 0<br>Quadratic equation: x = -4121/2481 & x = 4121/2481
         <p>In either case, with the <strong>Wright College Smart Calculator</strong> you would need to zero in on the intersection point to see where it might be. A more sophisticated smart calculator such as <a href="http://www.wolframalpha.com/input/?i=e%5E%28x%2F4%29-%284cos%28x%29%2B5%29">Wolfram alpha</a> will not only give you several graphs, but it will also suggest alternate forms for both real and imaginary values of x, the three numerical roots, the domain of the function, the Taylor series expansion at x=0 (also known as a Maclaurin series), the derivative, the indefinite integral, differential geometric curves, differential equation solution curve families and on and on, all without asking. All we have to teach our students is what this means and how to interpret it. No, they do not have to know how to "do it by hand."</p>
         <p>The <strong>Wright College Smart Calculator</strong> can also do some of this for you. For example, although it takes more effort, a student can be shown how numerical roots can be gotten via the Newton Ralphson calculator:</p>
         <p><strong>input:</strong> e^(X/4)-(4*cos(X)+5);2;4;7 to get the <a href="newton.htm?e^(X/4)-(4*cos(X)+5);2;4;7" target="julius"><strong>result</strong></a></p>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 
@@ -341,6 +352,7 @@ x^2 -2.759 = 0<br>Quadratic equation: x = -4121/2481 & x = 4121/2481
         <p>Toivon sinulle on nauttia elämästä ja pitää hauskaa</p>
         <p>Η ευχή μου για σας είναι <strong>να απολαμβάνουν τη ζωή και να διασκεδάσουν</strong></p>
         <p>Dëshira ime për ju është që të <strong>gëzojnë jetën dhe . . .</strong></p>
+        <a href="#foreword" class="backToTop">Back to Top</a>
     </div>
 
 

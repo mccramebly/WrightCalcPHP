@@ -48,39 +48,39 @@
             <div class="column" id="math118">
                 <h2>Math 118 - Gen Ed Math</h2>
                 <ul class="menu">
-                    <li><a href="calc.htm" title="calc.htm" class="nohov menu">Scientific Calculator</a></li>
-                    <li><a href="truth.htm" title="truth" class="nohov menu">Logic</a></li>
-                    <li><a href="discrete.htm" title="discrete.htm" class="nohov menu">Discrete Probabilty</a>
+                    <li><a href="calc.php" class="nohov menu">Scientific Calculator</a></li>
+                    <li><a href="truth.php" class="nohov menu">Logic</a></li>
+                    <li><a href="discrete.php" class="nohov menu">Discrete Probabilty</a>
                     </li>
-                    <li><a href="continuous.htm" title="continuous.htm" class="nohov menu">Continuous Probabilty</a></li>
-                    <li><a href="stats.htm" title="stats.htm" class="nohov menu">1-var Statistics</a></li>
-                    <li><a href="regress.htm" title="regress.htm" class="nohov menu">2-var Regression</a></li>
-                    <li><a href="bayes.in.htm" title="bayes.in.htm" class="nohov menu">Bayes Theorem</a></li>
-                    <li><a href="venn.in.htm" title="venn.in.htm" class="nohov menu">Venn Diagram</a></li>
+                    <li><a href="continuous.php" class="nohov menu">Continuous Probabilty</a></li>
+                    <li><a href="stats.php" class="nohov menu">1-var Statistics</a></li>
+                    <li><a href="regress.php" class="nohov menu">2-var Regression</a></li>
+                    <li><a href="bayes.in.php" class="nohov menu">Bayes Theorem</a></li>
+                    <li><a href="venn.in.php" class="nohov menu">Venn Diagram</a></li>
                 </ul>
             </div>
             <div class="column" id="algebra">
                 <h2>Algebra - Calculus</h2>
                 <ul class="menu">
-                    <li><a href="simplify.htm" title="simplify.htm" class="nohov menu">Algebra</a></li>
-                    <li><a href="linear.htm" title="linear.htm" class="nohov menu">Systems of Linear Equations</a></li>
-                    <li><a href="parabola.htm" title="parabola.htm" class="nohov menu">Quadratics / Parabolas</a></li>
-                    <li><a href="graphs.htm?&amp;" title="graphs" class="nohov menu">Function Graphs</a></li>
-                    <li><a href="newton.htm" title="newton.htm" class="nohov menu">Newton Raphson Solver</a></li>
-                    <li><a href="triangle.htm" title="triangle.htm" class="nohov menu">Triangles </a></li>
-                    <li><a href="integral.htm" title="integral.htm" class="nohov menu">Definite Integrals</a></li>
-                    <li><a href="matrix.htm" title="matrix.htm" class="nohov menu">Matrix Math </a></li>
+                    <li><a href="simplify.php" class="nohov menu">Algebra</a></li>
+                    <li><a href="linear.php" class="nohov menu">Systems of Linear Equations</a></li>
+                    <li><a href="parabola.php" class="nohov menu">Quadratics / Parabolas</a></li>
+                    <li><a href="graphs.php?&amp;" class="nohov menu">Function Graphs</a></li>
+                    <li><a href="newton.php" class="nohov menu">Newton Raphson Solver</a></li>
+                    <li><a href="triangle.php" class="nohov menu">Triangles </a></li>
+                    <li><a href="integral.php" class="nohov menu">Definite Integrals</a></li>
+                    <li><a href="matrix.php" class="nohov menu">Matrix Math </a></li>
                 </ul>
             </div>
             <div class="column" id="programming">
                 <h2>Programming</h2>
                 <ul class="menu">
-                    <li><a href="edit.htm" title="editor" class="nohov menu">Reader / Editor</a></li>
-                    <li><a href="ijs.htm" title="JS console" class="nohov menu">J/S console</a></li>
-                    <li><a href="codes.htm" class="nohov menu">HTML codes</a></li>
-                    <li><a href="minimal.js.html" class="nohov menu">Writing a JS program</a></li>
+                    <li><a href="edit.php" class="nohov menu">Reader / Editor</a></li>
+                    <li><a href="ijs.php" class="nohov menu">J/S console</a></li>
+                    <li><a href="codes.php" class="nohov menu">HTML codes</a></li>
+                    <li><a href="minimal.js.phpl" class="nohov menu">Writing a JS program</a></li>
                     <li><a href="mathcodes.htm" class="nohov menu">HTML Math codes</a></li>
-                    <li><a href="math.htm" class="nohov menu">JS Math Functions</a></li>
+                    <li><a href="math.php" class="nohov menu">JS Math Functions</a></li>
                     <li><a href="string.htm" class="nohov menu">String &amp; Array Functions</a></li>
                 </ul>
             </div>
@@ -89,32 +89,32 @@
                 <ul class="menu">
                     <li><a href="chess.htm" class="nohov menu">Chess game</a></li>
                     <li><a href="chomp.htm" class="nohov menu">CHOMP game</a></li>
-                    <li><a href="faraok.htm" class="nohov menu">Fáraók Kincse</a></li>
-                    <li><a href="logic.htm" class="nohov menu">Logic Puzzle</a></li>
-                    <li><a href="sudoku.htm" class="nohov menu">Sudoku</a></li>
+                    <li><a href="faraok.php" class="nohov menu">Fáraók Kincse</a></li>
+                    <li><a href="logic.php" class="nohov menu">Logic Puzzle</a></li>
+                    <li><a href="sudoku.php" class="nohov menu">Sudoku</a></li>
                     <li><a href="tron.html" class="nohov menu">TRON Game</a></li>
                 </ul>
             </div>
             <div class="column" id="misc">
                 <h2>Miscellaneous</h2>
                 <ul class="menu">
-                    <li><a href="saveloan.htm" title="saveloan.htm" class="nohov menu">Financial Calculator</a></li>
-                    <li><a href="generate.htm" title="generate.htm" class="nohov menu">nPr, nCr, n^r</a></li>
-                    <li><a href="SumsofDigits.htm" title="sums" class="nohov menu">Sums of digits of numbers</a></li>
-                    <li><a href="plot.htm" title="Values" class="nohov menu">Table of Values</a></li>
+                    <li><a href="saveloan.php" title="saveloan.php" class="nohov menu">Financial Calculator</a></li>
+                    <li><a href="generate.php" title="generate.php" class="nohov menu">nPr, nCr, n^r</a></li>
+                    <li><a href="SumsofDigits.php" title="sums" class="nohov menu">Sums of digits of numbers</a></li>
+                    <li><a href="plot.php" title="Values" class="nohov menu">Table of Values</a></li>
                     <li><a href="http://zweigmedia.com/RealWorld/simplex.html" title="simplex.htm" class="nohov menu">Simplex method </a></li>
                     <li><a href="faq.ag.formulas.html" class="nohov menu">Analytical Geometry</a></li>
-                    <li><a href="arearect.htm" class="nohov menu">Area of Rectangle</a></li>
-                    <li><a href="calcGPA.htm" class="nohov menu">Calculate Projected GPA</a></li>
+                    <li><a href="arearect.php" class="nohov menu">Area of Rectangle</a></li>
+                    <li><a href="calcGPA.php" class="nohov menu">Calculate Projected GPA</a></li>
                     <li><a href="CRAMER.PARABOLA.html" class="nohov menu">Cramer's rule for quadratic spline</a></li>
-                    <li><a href="sched.htm" class="nohov menu">Group Schedule Builder</a></li>
-                    <li><a href="ode.htm" class="nohov menu">ODE</a></li>
+                    <li><a href="sched.php" class="nohov menu">Group Schedule Builder</a></li>
+                    <li><a href="ode.php" class="nohov menu">ODE</a></li>
                     <li><a href="../Office%20hour%20calc.htm" class="nohov menu">Office Hour Calculator</a></li>
-                    <li><a href="q.spline.htm" class="nohov menu">Quadratic Spline Fit</a></li>
-                    <li><a href="squareroot.htm" class="nohov menu">Square Root By Hand</a></li>
-                    <li><a href="saba.html" class="nohov menu">Two Points</a></li>
-                    <li><a href="2p2e4.htm" class="nohov menu">Two + Two = Four</a></li>
-                    <li><a href="vedicmult.htm" class="nohov menu">Vedic Multiplication</a></li>
+                    <li><a href="q.spline.php" class="nohov menu">Quadratic Spline Fit</a></li>
+                    <li><a href="squareroot.php" class="nohov menu">Square Root By Hand</a></li>
+                    <li><a href="saba.phpl" class="nohov menu">Two Points</a></li>
+                    <li><a href="2p2e4.php" class="nohov menu">Two + Two = Four</a></li>
+                    <li><a href="vedicmult.php" class="nohov menu">Vedic Multiplication</a></li>
                 </ul>
             </div>
         </main>

@@ -11,8 +11,9 @@
 <body onLoad="self.focus();">
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
-        <a href="probability.htm" alt="wrightcalc.htm" title="wrightcalc.htm"><img src="urn.jpg" alt="Polya's Urn" title="Polya's Urn" /></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <img src="urn.jpg" alt="Polya's Urn" title="Polya's Urn" />
+        <a href="probability.php" class="returnLink">Return to Discrete Distribution</a>
         <h2>Example of Polya's Urn</h2>
         <p>The Urn contains B=6 blue balls and W=9 that are not Blue.<br>Q1. How many ways can you pick P=8 balls?<br>
             Q2. What is the expected number of blue balls per pick.<br>Expected number is the same as the average. <br><br>

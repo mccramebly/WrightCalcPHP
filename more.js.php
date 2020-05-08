@@ -11,7 +11,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         Here are some other considerations.<ul>
             <li>Some Browsers may require additional header information.</li>
             <li>The assignment may tell you to assign some values before the rest of your program</li>
@@ -47,7 +47,7 @@ area=llength*width
 pr("<b>The area is: "+area+"</b></p>")
 </script>
 </pre>
-        <p><a href="more.2.js.html" target="_blank">Still More JS</a></p>
+        <p><a href="more.2.js.php" target="_blank">Still More JS</a></p>
     </div>
 </body>
 

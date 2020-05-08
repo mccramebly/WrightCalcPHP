@@ -152,7 +152,7 @@
         }
     </script>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <!--  Jessica Choe 	jchoe@ccc.edu  -->
         <h1>Group Generator</h1>
         <form name="theForm">

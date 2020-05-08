@@ -429,7 +429,7 @@
 <body id="saveLoan">
     <?php include('nav.html'); ?>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Savings &amp; Loan Calculator</h1>
         <form name="theForm">
 

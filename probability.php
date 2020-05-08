@@ -249,7 +249,7 @@
             print('totals:     ' + cols(N, 8) + cols(my(P), 10) + cols(my(E), 10))
             document.theForm.output.value = '  X   not X   N(X)       P(X)       X*P(X)      ' + Sigma + 'N      ' + Sigma + 'P(X)    1-' + Sigma + 'P(X)\n----- ----- -------- ---------- ---------- -------- ---------- ----------\n' + document.theForm.input.value
             document.theForm.input.value = ''
-            if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+            if (xstats) window.open('regress.php?' + statsxz + '\\\\')
         }
         // ---------------------------------------------------*/
         function dicetoss(x, f) {
@@ -290,7 +290,7 @@
             }
             document.theForm.output.value += '\n---- ----- --------------------- ---------------------'
             document.theForm.output.value += '\n' + cols(tY, 4) + '/' + cols(xTOT, 4) + cols(my(tz), 21) + cols(my(tiz), 21) + '\n'
-            if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+            if (xstats) window.open('regress.php?' + statsxz + '\\\\')
         }
         // ---------------------------------------------------*/
         function boxpick(mm, nn) {
@@ -384,7 +384,7 @@
                 document.theForm.mean.value = mean;
                 document.theForm.sdev.value = sdev;
                 document.theForm.output.value += mu + " =(n p) = " + round4(binn * binp) + ";  " + sigma + P2 + " = " + "( n p q ) = " + round4(binn * binp * binq) + ";  " + sigma + " = " + radical + "( n p q ) = " + round4(sqrt(binn * binp * binq)) + "\n"
-                if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+                if (xstats) window.open('regress.php?' + statsxz + '\\\\')
                 if (binp * binn < 5) {
                     document.theForm.output.value += "p*n=" + round4(binp * binn) + " is < 5; do not use the Normal Approximation";
                     return
@@ -538,7 +538,7 @@
     <?php include('nav.html'); ?>
     <form name="theForm">
         <div class="calcmenu">
-            <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+            <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
             <h1>Discrete Distribution</h1>
             <textarea name="output" rows=25 cols=68 onkeyup="enter(event)"></textarea>
 
@@ -549,18 +549,18 @@
             <textarea name="input" rows=1 cols=42 onkeyup="enter(event)"></textarea>
             <input name="NDbut" type="button" value="Enter" onClick="calc0();document.theForm.input.focus()">&nbsp;
 
-            <h2><a href="javascript: window.open('2dice.htm','','top=100,left=100')">Dice</a></h2> <label>N</label><input type="text" name="noofdice" size=1 value="2" onClick="noofdice.value=(Number(noofdice.value)+1); noofdice.select()"> <label>Faces</label><input type="text" name="nooffaces" size=1 value="6" onClick="nooffaces.value=(Number(nooffaces.value)+1); nooffaces.select()">
+            <h2><a href="javascript: window.open('2dice.php','','top=100,left=100')">Dice</a></h2> <label>N</label><input type="text" name="noofdice" size=1 value="2" onClick="noofdice.value=(Number(noofdice.value)+1); noofdice.select()"> <label>Faces</label><input type="text" name="nooffaces" size=1 value="6" onClick="nooffaces.value=(Number(nooffaces.value)+1); nooffaces.select()">
             <input name="DiceToss" type="button" value="Enter" onClick="fixandor(); doit(2)"><br><br><br>
 
-            <h2><a href="javascript: window.open('box.htm','','top=100,left=100')">Box</a></h2>
+            <h2><a href="javascript: window.open('box.php','','top=100,left=100')">Box</a></h2>
             <label>Types</label><input type="text" name="boxtype" size=1 value="4" onClick="boxtype.value=(Number(boxtype.value)+1); boxtype.select()"><label>Pick</label><input type="text" name="boxpick" size=1 value="5" onClick="boxpick.value=(Number(boxpick.value)+1); boxpick.select()"><input name="boxdo" type="button" value="Enter" onClick="doit(9)">
             <br><br><br>
-            <h2><a href="javascript: window.open('10coins.htm','','top=100,left=100')">Binomial Coins</a></h2> <label>N</label><input type="text" name="binn" size=1 value="10" onClick="binn.value=(Number(binn.value)+1); binn.select()">
+            <h2><a href="javascript: window.open('10coins.php','','top=100,left=100')">Binomial Coins</a></h2> <label>N</label><input type="text" name="binn" size=1 value="10" onClick="binn.value=(Number(binn.value)+1); binn.select()">
             <label>P</label><input type="text" name="binp" size=1 value="0.5">
             <input name="Binomial" type="button" value="Enter" onClick="doit(4)"><br><br><br>
 
 
-            <h2><a href="javascript: window.open('urn.htm','','top=100,left=100')">Urn</a></h2> <label># X</label><input type="text" name="blueballs" size=1 value="5" onClick="blueballs.value=(Number(blueballs.value)+1); blueballs.select()"> <label># Not X</label><input type="text" name="whiteballs" size=1 value="3" onClick="whiteballs.value=(Number(whiteballs.value)+1); whiteballs.select()"> <label>Pick</label><input type="text" name="PickBalls" size=1 value="6" onClick="PickBalls.value=(Number(PickBalls.value)+1); PickBalls.select()"> <input type="button" value="nCr" id="urntxt" onClick="urnmode=++urnmode%3;document.getElementById('urntxt').value=urntext[urnmode];doit(3)" title="type of selection" />
+            <h2><a href="javascript: window.open('urn.php','','top=100,left=100')">Urn</a></h2> <label># X</label><input type="text" name="blueballs" size=1 value="5" onClick="blueballs.value=(Number(blueballs.value)+1); blueballs.select()"> <label># Not X</label><input type="text" name="whiteballs" size=1 value="3" onClick="whiteballs.value=(Number(whiteballs.value)+1); whiteballs.select()"> <label>Pick</label><input type="text" name="PickBalls" size=1 value="6" onClick="PickBalls.value=(Number(PickBalls.value)+1); PickBalls.select()"> <input type="button" value="nCr" id="urntxt" onClick="urnmode=++urnmode%3;document.getElementById('urntxt').value=urntext[urnmode];doit(3)" title="type of selection" />
             <input name="PickBall" type="button" value="Enter" onClick="doit(3)">
 
             <input name="clear" type="button" value="Clear" onClick="dnotprime.checked=false; disprime.checked=false; document.theForm.xandor.value=''; document.theForm.xcond.value=''; document.theForm.xfrom.value=''; document.theForm.xthru.value=''">

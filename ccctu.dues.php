@@ -10,12 +10,10 @@
 
 <body>
     <?php include('nav.html'); ?>
-    <div class="calcmenu"> <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
-        <table BORDER="1" CELLPADDING="10" CELLSPACING="5" WIDTH="50%" noshade bgcolor=99CC66>
-            <tr align="center" valign="top">
-                <th align="right" valign="top" nowrap colspan="1" rowspan="1">
-                    Step One, select your college:</th>
-                <td align="left" valign="top" nowrap colspan="1" rowspan="1" tabindex='1'>
+    <div class="calcmenu"> <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <div id="annualDuesCalc">
+                    <label for="college">Step One, select your college:</label>
+                
                     <select id="college">
                         <option id="a0"> </option>
                         <option id="a1">Daley College</option>
@@ -32,12 +30,9 @@
                         <option id="a12">Triton College</option>
                         <option id="a13">Truman College</option>
                         <option id="a14">Wright College</option>
-                    </select></td>
-            </tr>
-            <tr align="center" valign="top">
-                <th align="right" valign="top" nowrap colspan="1" rowspan="1">
-                    Step Two, Select your classification</th>
-                <td align="left" valign="top" nowrap colspan="1" rowspan="1" tabindex='2'>
+                    </select>
+            
+                    <label for="classification">Step Two, Select your classification</label>
                     <select id="classification">
                         <option id="b0"> </option>
                         <option id="b1">Full Member - Regular Division</option>
@@ -45,27 +40,23 @@
                         <option id="b3">Associate Member</option>
                         <option id="b4">Retired Member</option>
                         <option id="b5">Not negotiated by CCCTU</option>
-                    </select></td>
-            </tr>
-            <tr align="center" valign="top">
-                <th id='annualh' align="right" valign="top" nowrap colspan="1" rowspan="1">Step Three, Enter annual salary
-                </th>
-                <td id='annuald' align="left" valign="top" nowrap colspan="1" rowspan="1" tabindex="3"><input id="salary" type="text" value="" onblur="calcdues()" \>
-                </td>
-            </tr>
-            <tr align="center" valign="top">
-                <th id='anndueh' align="right" valign="top" nowrap colspan="1" rowspan="1">Annual Dues
-                </th>
-                <td id='anndued' align="left" valign="top" nowrap colspan="1" rowspan="1" tabindex="4">
-                </td>
-            </tr>
-            <tr align="center" valign="top">
-                <th id='ppdueh' align="right" valign="top" nowrap colspan="1" rowspan="1">Per payperiod
-                </th>
-                <td id='ppdued' align="left" valign="top" nowrap colspan="1" rowspan="1" tabindex="5">
-                </td>
-            </tr>
-        </table>
+                    </select>
+            
+            
+                <label for="salary">Step Three, Enter annual salary:</label>
+                
+                <input id="salary" type="text" value="" onblur="calcdues()" \>
+               
+            
+                <span id='anndueh'>Annual Dues
+                </span>
+                <span id='anndued' >
+            </span>
+                <span id='ppdueh'>Per payperiod
+                </span>
+            <span id='ppdued'></span>
+               
+        </div>
         <!-- <input type="button" name="test" value ="test" onClick="test()"> -->
 
         <script TYPE="text/javascript">

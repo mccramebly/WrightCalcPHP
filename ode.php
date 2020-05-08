@@ -13,7 +13,7 @@
     <script type="text/javascript" src="myfunctions.js"></script>
     <link REL="shortcut icon" href="favicon.ico">
     <div class="widecalcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h1>Initial Value ODE</h1>
             <label>f'(x) = </label><input type="text" name="input" tabindex="1" onKeyUp="enter(event)">

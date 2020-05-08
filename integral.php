@@ -318,14 +318,14 @@
                         document.theForm.output.value += "f(" + myround(x) + ")=" + myround(f(x)) + "\n";
                     }
                     yd = (ymax - ymin) / 10
-                    window.open("graphs.htm?x:" + (x1 - h / 2) + " to " + (x2 + h / 2) + ";y:" + (ymin - yd) + " to " + (ymax + yd) + ';' + lgraph + '{blue};' + mgraph + '{orange};' + rgraph + '{green};' + ngraph + '{purple};' + xgraph + '{brown};' + tgraph + '{red};' + f1 + '{black};')
+                    window.open("graphs.php?x:" + (x1 - h / 2) + " to " + (x2 + h / 2) + ";y:" + (ymin - yd) + " to " + (ymax + yd) + ';' + lgraph + '{blue};' + mgraph + '{orange};' + rgraph + '{green};' + ngraph + '{purple};' + xgraph + '{brown};' + tgraph + '{red};' + f1 + '{black};')
                 }
                 document.theForm.input.focus();
             }
         };
     </script>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <h1>Define Integral</h1>
         <form name="theForm">
             <h2>Integrals</h2>

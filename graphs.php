@@ -13,7 +13,7 @@
 <body onLoad="self.focus(); document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script>
             // -------------------------------------------------------*/
             function C2GX(X) {
@@ -1056,11 +1056,11 @@
             // --------------------------------------------*/
             function donewton() {
                 plot(999, false, true)
-                window.open('newton.htm?' + newton)
+                window.open('newton.php?' + newton)
             }
             // --------------------------------------------*/
             function url() {
-                urlline = 'http://faculty.ccc.edu/jnadas/js/graphs.htm?x:'
+                urlline = 'http://faculty.ccc.edu/jnadas/js/graphs.php?x:'
                 urlline += 'x:' + GXF + ' to ' + GXT + ';y:' + GYF + ' to ' + GYT + ';'
                 urlline += document.theForm.input.value.replace(/\n/g, ";")
                 urlline = encodeURI(urlline)

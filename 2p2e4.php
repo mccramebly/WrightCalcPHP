@@ -13,7 +13,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <script>
             document.write("solve the letter substitution puzzle: TWO + TWO = FOUR")
             /* totally brute force, check each of the six letters: F O R T U W */

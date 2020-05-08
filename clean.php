@@ -118,7 +118,7 @@
         // ---------------------------------------------------
     </script>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
 
             <div class="button3row">

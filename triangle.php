@@ -1045,7 +1045,7 @@
                      val1 = "x:" + (graphxm - graphr2) + " to " + (graphxm + graphr2) + ";y:" + (graphym - graphr2) + " to " + (graphym + graphr2) + ";" + graphdata
                      val1 = escape(val1.replace(/\n/g, "<nl>").replace(/;/g, "<sc>"))
                      localStorage.setItem("graphdata", val1)
-                     window.open("graphs.htm")
+                     window.open("graphs.php")
                  }
                  // ?x:" +(graphxm-graphr2) +" to " +(graphxm+graphr2) +";y:"  +(graphym-graphr2) +" to " +(graphym+graphr2) +";" +graphdata)}
                  graphit = false;
@@ -1053,7 +1053,7 @@
              }
          </script>
          <form name="theForm">
-             <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+             <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
              <h1>Triangles &amp; Vectors</h1>
              <textarea name="output" rows=30 cols=68 tabindex=0>Triangles:
   poi: (1,0,,D)(-5,-3,,E)(-5,0,,Z)     // coordinate points (DEZ)

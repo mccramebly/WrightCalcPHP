@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="assets/articlestyles.css">
 </head>
 
-<body onLoad="self.focus();window.resizeTo( 950, 750 );">
+<body onLoad="self.focus();">
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
-        <p><a href="probability.htm" alt="wrightcalc.htm" title="wrightcalc.htm">Probability Link</a></p>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <p><a href="probability.php">Discrete Distribution Calculator</a></p>
 
         <p>
             A multiset is a collection of unordered elements, where every element occurs a finite number of times.<br>

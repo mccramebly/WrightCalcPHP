@@ -11,7 +11,7 @@
 <body onLoad="self.focus(); document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script type="text/javascript" src="myfunctions.js"></script>
         <form name="theForm">
             <canvas id="StoG" width="505" height="505"></canvas>

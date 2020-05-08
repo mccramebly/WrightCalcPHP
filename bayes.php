@@ -12,14 +12,14 @@
 <body onLoad="self.focus();document.ss.venn2.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name='ss'>
             <h1>Frequentist view of Bayes Theorem</h1>
 
 
             <h2>Mode</h2> <br>
             <input name="demobut" type="button" value="DEMO" onClick="demo()">
-            <input id='clearallid' name="clear" type="button" value="Clear ALL" onClick="window.open('bayes.htm','_self')" />
+            <input id='clearallid' name="clear" type="button" value="Clear ALL" onClick="window.open('bayes.php','_self')" />
             <input type="button" value="a/b" id="frac" onClick="swfrac(true)" title="output format"><br>
             <h2>Input</h2><br>
             <label>A:</label><input class="shortinput" type='text' name='venn1' size=5 tabindex="1" value="A" onfocus='legend()'>

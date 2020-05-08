@@ -11,7 +11,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         This file:
 
         <pre>
@@ -37,7 +37,7 @@ area=llength*width
 document.write ("the area is: ",area,"<br>")
 </script>
 </pre>
-        <p><a href="more.js.html" target="_blank">More JS</a></p>
+        <p><a href="more.js.php" target="_blank">More JS</a></p>
     </div>
 </body>
 

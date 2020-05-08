@@ -186,7 +186,7 @@
                 <form name="theForm">
                     <table border=1>
                         <tr>
-                            <td colspan=99 onClick="window.open('index.htm')"> </td>
+                            <td colspan=99 onClick="window.open('index.php')"> </td>
                         </tr>
                         <tr>
                             <td>Enter any two values:</td>
@@ -227,7 +227,7 @@
                 <form name="theSForm">
                     <table border=1>
                         <tr>
-                            <td colspan=99 onClick="window.open('index.htm')"> </td>
+                            <td colspan=99 onClick="window.open('index.php')"> </td>
                         </tr>
                         <tr>
                             <td>Enter any two values:</td>

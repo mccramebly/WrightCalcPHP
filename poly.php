@@ -79,7 +79,7 @@
         }
     </script>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Polynomial Calculator</h1>
         <form name="theForm">
             <div id="inputOutputGroup">

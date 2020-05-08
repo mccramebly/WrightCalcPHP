@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Continued fraction operations</title>
+    <title>Continued Fraction Operations</title>
     <meta charset="utf-8">
     <link rel="SHORTCUT ICON" href="favicon.ico">
     <link rel="stylesheet" href="assets/html5reset-1.6.1.css">
@@ -12,7 +12,7 @@
 <body onLoad="self.focus();document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script src="myfunctions.js"></script>
         <script>
             // ---------------------------------------------------*/

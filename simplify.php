@@ -736,7 +736,7 @@
             }
             calc()
             if (saveit.length > 0) {
-                window.open("graphs.htm")
+                window.open("graphs.php")
                 localStorage.setItem("graphdata", escape((saveit + saveit1).replace(/\n/g, "<br>").replace(/;/g, "<sc>")))
             }
         }
@@ -758,7 +758,7 @@
         // ---------------------------------------------------*/
     </script>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Simplify and Solve Using Algebra</h1>
         <form name="theForm">
             <div id="inputOutputGroup">

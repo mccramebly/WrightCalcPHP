@@ -64,7 +64,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <form name="theForm">
             <ol>
                 <li>How many numbers are there, starting with <input type="text" name="startn" size=1 value="100"> and going through <input type="text" name="lastn" size=1 value="999">

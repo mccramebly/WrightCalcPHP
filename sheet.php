@@ -461,7 +461,7 @@
     <form name="theForm">
         <table style="font-family:Monospace" border=1>
             <tr>
-                <td colspan=99 onClick="window.open('index.htm')" align='center' tabindex="1">Spreadsheets</td>
+                <td colspan=99 onClick="window.open('index.php')" align='center' tabindex="1">Spreadsheets</td>
             </tr>
             <tr>
                 <td></td>

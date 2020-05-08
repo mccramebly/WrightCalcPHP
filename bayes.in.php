@@ -12,10 +12,10 @@
 <body onLoad="self.focus();document.ss.venn2.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name='ss'>
             <h1>Bayes Theorem</h1>
-            <input id='clearallid' name="clear" type="button" value="Clear ALL" onClick="window.open('bayes.in.htm','_self')" tabindex="9">
+            <input id='clearallid' name="clear" type="button" value="Clear ALL" onClick="window.open('bayes.in.php','_self')" tabindex="9">
             <input name="demobut" type="button" value="DEMO" onClick="demo()" tabindex="10">
             <br>
             <br>
@@ -95,7 +95,7 @@
             function show() {
                 with(Math) {
                     calc()
-                    callthis = 'bayes.htm?' + document.ss.venn2.value + '&' + document.ss.venn1.value + '&' + papb + '&' + papnb + '&' + pnapb + '&' + pnapnb
+                    callthis = 'bayes.php?' + document.ss.venn2.value + '&' + document.ss.venn1.value + '&' + papb + '&' + papnb + '&' + pnapb + '&' + pnapnb
                     window.open(callthis)
                 }
             }

@@ -8,6 +8,7 @@ body {
 h1, h2 {
     font-weight:normal;
     text-align: center;
+    clear:left;
 }
 
 p{
@@ -22,9 +23,17 @@ table{
     border-collapse: collapse;
     border-radius: 15px;
     border: 1px solid rgb(198, 199, 196, 0.5);
+    max-width:100%;
     
 
 }
+
+table caption {
+    font-size:1.2em;
+    text-align: left;
+    padding:5px 0;
+}
+
 
 th, td{
     border-bottom: 1px solid #C6C7C4;
@@ -236,6 +245,7 @@ input[type=checkbox]{
 textarea{
     float: left;
     border-radius: 5px;
+    width:100%;
 }
 
 /*grid*/
@@ -297,7 +307,7 @@ textarea{
     grid-column: 3;
 }
 
-/* class for 2dice */
+/* classes for 2dice */
 
 .pink {
     background:pink;
@@ -309,6 +319,43 @@ textarea{
     width:1em;
 }
 
+/* link back from explanatory articles */
+a.returnLink {
+    display:block;
+    font-size:.8em;
+    text-align: center;
+}
+
+a.returnLink:before {
+    content:"←";
+}
+
+/* back to top link */
+
+a.backToTop {
+    display:block;
+    text-align: right;
+    text-decoration:none;
+    clear:both;
+}
+
+a.backToTop:before {
+    content:"↑";
+    padding-right:10px;
+    
+}
+/* dues calculator */
+
+#annualDuesCalc {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    text-align: right;
+}
+
+#annualDuesCalc label {
+    width:auto;
+}
 /*label
 {
     float: left;

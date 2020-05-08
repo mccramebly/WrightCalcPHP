@@ -484,7 +484,7 @@
 <body onLoad="self.focus()">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
 
             <h2>First Point:</h2><label>X1</label><input name="x1" size=35 value="" /><label>Y1</label><input name="y1" size=35 value="" />

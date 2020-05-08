@@ -233,7 +233,7 @@
             print('totals:     ' + cols(N, 8) + cols(my(P), 10) + cols(my(E), 10))
             document.theForm.output.value = '  X   not X   N(X)       P(X)       X*P(X)      ' + Sigma + 'N      ' + Sigma + 'P(X)    1-' + Sigma + 'P(X)\n----- ----- -------- ---------- ---------- -------- ---------- ----------\n' + document.theForm.input.value
             document.theForm.input.value = ''
-            if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+            if (xstats) window.open('regress.php?' + statsxz + '\\\\')
         }
         // ---------------------------------------------------*/
         function dicetoss(x, f) {
@@ -274,7 +274,7 @@
             }
             document.theForm.output.value += '\n---- ----- --------------------- ---------------------'
             document.theForm.output.value += '\n' + cols(tY, 4) + '/' + cols(xTOT, 4) + cols(my(tz), 21) + cols(my(tiz), 21) + '\n'
-            if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+            if (xstats) window.open('regress.php?' + statsxz + '\\\\')
         }
         // ---------------------------------------------------*/
         function boxpick(mm, nn) {
@@ -362,7 +362,7 @@
                 document.theForm.mean.value = mean;
                 document.theForm.sdev.value = sdev;
                 document.theForm.output.value += mu + " =(n p) = " + round4(binn * binp) + ";  " + sigma + P2 + " = " + "( n p q ) = " + round4(binn * binp * binq) + ";  " + sigma + " = " + radical + "( n p q ) = " + round4(sqrt(binn * binp * binq)) + "\n"
-                if (xstats) window.open('regress.htm?' + statsxz + '\\\\')
+                if (xstats) window.open('regress.php?' + statsxz + '\\\\')
                 if (binp * binn < 5) {
                     document.theForm.output.value += "p*n=" + round4(binp * binn) + " is < 5; do not use the Normal Approximation";
                     return
@@ -546,7 +546,7 @@
 
             val1 = escape(graphdata.replace(/\n/g, "<nl>").replace(/;/g, "<sc>"))
             localStorage.setItem("graphdata", val1)
-            window.open('graphs.htm')
+            window.open('graphs.php')
         }
     </script>
     <link rel="SHORTCUT ICON" href="favicon.ico">
@@ -556,7 +556,7 @@
 <body onLoad="if (document.theForm.mean.value == '0') {document.theForm.mean.focus(); document.theForm.mean.select()}">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <h1>Normal(continuous) Distribution Gauss (Gauß)</h1>
         <form name="theForm">
             <textarea name="output" rows=25 cols=68 onkeyup="enter(event)"></textarea>

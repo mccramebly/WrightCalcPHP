@@ -11,7 +11,7 @@
 <body onLoad="self.focus();document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script type="text/javascript" src="myfunctions.js"></script>
         <script>
             // ---------------------------------------------------*/
@@ -660,7 +660,7 @@
                 if (xx1 < 0) xx2 = 0;
                 else xx2 = xx.slice(0, xx1).lastIndexOf("\n")
                 savestuff(localstore, slim(xx.slice(xx2)))
-                runcomm = 'truth.htm?&'
+                runcomm = 'truth.php?&'
                 localstore = ''
                 document.theForm.input.focus()
                 window.open(runcomm)
@@ -759,7 +759,7 @@
                 document.theForm.jsdata.value = 'ijs'
                 localstore = 'ijs'
                 savestuff(localstore);
-                runcomm = 'ijs.htm?run&' + localstore
+                runcomm = 'ijs.php?run&' + localstore
                 window.open(runcomm)
                 document.theForm.input.focus()
             }
@@ -778,7 +778,7 @@
                 document.theForm.input.value = now.replace(/ +(\d)/g, "+$1")
                 localstore = 'calc'
                 savestuff(localstore)
-                runcomm = 'calc.htm?&'
+                runcomm = 'calc.php?&'
                 localstore = ''
                 document.theForm.input.focus()
                 window.open(runcomm)
@@ -904,7 +904,7 @@
                 }
                 localstore = 'simplify'
                 savestuff(localstore)
-                runcomm = 'simplify.htm?&'
+                runcomm = 'simplify.php?&'
                 localstore = ''
                 window.open(runcomm)
                 document.theForm.input.focus()
@@ -924,7 +924,7 @@
                 doit("θ", "x")
                 if (now.search(/[a-z]x/) > 0) doit('x', '(x)')
                 savestuff('graphdata');
-                window.open('graphs.htm')
+                window.open('graphs.php')
                 document.theForm.input.focus()
             }
             // ---------------------------------------------------*/
@@ -951,10 +951,10 @@
                 if (now.search(/:/) < 0) {
                     if (now.search(/{/) >= 0) {
                         now = now.replace(/(\d),/g, '$1{1},');
-                        window.open('regress.htm?&&&&' + now);
+                        window.open('regress.php?&&&&' + now);
                         return
                     }
-                    window.open('regress.htm?' + now);
+                    window.open('regress.php?' + now);
                     document.theForm.input.focus();
                     return
                 }
@@ -972,7 +972,7 @@
                         s[k] += (s[k].length > 0 ? ' ' : '') + nowl[i].slice(j + 1)
                     }
                 }
-                if ((s[0] + s[1] + s[2] + s[3] + s[4] + s[5] + s[6] + s[7]).length > 0) window.open('regress.htm?' + s[0] + '&' + s[1] + '&' + s[2] + '&' + s[3] + '&' + s[4] + '&' + s[5] + '&' + s[6] + '&' + s[7])
+                if ((s[0] + s[1] + s[2] + s[3] + s[4] + s[5] + s[6] + s[7]).length > 0) window.open('regress.php?' + s[0] + '&' + s[1] + '&' + s[2] + '&' + s[3] + '&' + s[4] + '&' + s[5] + '&' + s[6] + '&' + s[7])
                 document.theForm.input.focus()
             }
             // ---------------------------------------------------*/
@@ -1166,7 +1166,7 @@ The last line is for converting logical variables that are other than p,q,r,s,t.
 
             jsprogs.push("// Pascal's triangle\nnoRows=input ('number of rows')\np=[[1],[1,1],[1,2,1]]; kk=''\nfor (i=p.length;i<noRows;i++){\n p[i]=[1]\n for (j=1;j<p[i-1].length;j++)p[i][j]=p[i-1][j-1]+p[i-1][j]\n p[i][i]=1\n}\nfor (i=0;i<p.length;i++){\n k='';s=0;t=0\n for (j=0;j<p[i].length;j++){\n  x=p[i][j];k+=x+', ';s+=x;t+=x*x\n  }\n  print(k+'  Σx='+s+'  Σx²='+t)\n}")
             jsprogs.push("// generate pythagorean triples\nfor (i=2;i<20;i+=2){\na=i*i; for (m=0;m*m<a;m++){\nif (a%m==0){\nn=a/m; if(gcf(n+m,gcf(n-m,2*i))==1){ \nfor(k=1;k<2;k++){\nprint (k*(n-m),k*(2*i),k*(m+n))}}}}}")
-            jsprogs.push("// read & write\nprint('navigator.appVersion: '+navigator.appVersion);\nprint('navigator.userAgent: '+navigator.userAgent);\nprint('navigator.appName: '+navigator.appName);\nprint('navigator.platform: '+navigator.platform);\n// First, the program says hello world and asks for your name\nprint('hello world!','')\nmyName=input('What is your name')\nprint ('It is good to meet you, '+myName)\n//Then it loads data into the textbox dataIn, Or you could load it by hand\n// or from a cookie: loaddata('xxx') or load automatically from cookie 'dataIn'\nif (dataIn.length==0) dataIn='1,2,3,4\\ntwo\\ntres\\nnégy'\ni=0; b=[]\nwhile (dataIn.length>0){\n i++; a=read(); aa=a.split(',')\n if (typeof(aa)== 'object') if(!isNaN(aa[0])) print(Number(aa[0]))\n b.push('('+slim(a)+')'); write('item #'+i+' is '+a+'\\n')\n}\nwrite ('that\\'s all folks')\nprint (i+' items written: '+ b)\n//press enter to run the program\n//or ESC to edit it and then ESC/enter to run it\n//g=dataOut; if (g.length==0) {g=$_screen;g=g.slice(g.lastIndexOf('---')+3)}\n//  localStorage.setItem('graphdata',g);window.open('graphs.htm')")
+            jsprogs.push("// read & write\nprint('navigator.appVersion: '+navigator.appVersion);\nprint('navigator.userAgent: '+navigator.userAgent);\nprint('navigator.appName: '+navigator.appName);\nprint('navigator.platform: '+navigator.platform);\n// First, the program says hello world and asks for your name\nprint('hello world!','')\nmyName=input('What is your name')\nprint ('It is good to meet you, '+myName)\n//Then it loads data into the textbox dataIn, Or you could load it by hand\n// or from a cookie: loaddata('xxx') or load automatically from cookie 'dataIn'\nif (dataIn.length==0) dataIn='1,2,3,4\\ntwo\\ntres\\nnégy'\ni=0; b=[]\nwhile (dataIn.length>0){\n i++; a=read(); aa=a.split(',')\n if (typeof(aa)== 'object') if(!isNaN(aa[0])) print(Number(aa[0]))\n b.push('('+slim(a)+')'); write('item #'+i+' is '+a+'\\n')\n}\nwrite ('that\\'s all folks')\nprint (i+' items written: '+ b)\n//press enter to run the program\n//or ESC to edit it and then ESC/enter to run it\n//g=dataOut; if (g.length==0) {g=$_screen;g=g.slice(g.lastIndexOf('---')+3)}\n//  localStorage.setItem('graphdata',g);window.open('graphs.php')")
             jsprogs.push("// A javascript program using three different methods for getting data:\n// Method one: hard assignment inside the program.\nvar a=1, b=2\nprint('a is '+a); print('b is '+b)\nprint('the sum of '+a+' plus '+b+' is '+(a+b))\n// Method two: funky input command.\na=Number(input('enter a number'))\nb=Number(input('and another number'))\nprint('the sum of '+a+' plus '+b+' is '+(a+b))\ninput('press ENTER to continue')\n// Method three: text box with a prompt command.\na=Number(prompt('enter a number'))\nprint('a is '+a); show() \nb=Number(prompt('enter another number'))\nprint('b is '+b)\nprint('the sum of '+a+' plus '+b+' is '+(a+b))\n// Press [run] to run the program.")
             jsprogs.push("S='The sum of the first '; V=10 //  primes\nX=1; T=0; U=0\nwhile (U<V)\n{ X+=1\n  if (prime(X)[0]=='i')\n  { print (X,' ')\n    T+=X; U+=1 }}\nprint ()\nprint (S+U+' primes is '+T)")
             jsprogs.push("// Randomly put <c> numbers into <b> boxes\nc=12;b=4;s=[];for(i=1;i<=c;i++) s.push([Math.random(),i]);s.sort();for (i=0;i<b;i++){print('Box '+(i+1)+': ','');for (j=Math.floor(i*c/b);j<Math.floor((i+1)*c/b);j++) print(s[j][1]+' ','');print()}")

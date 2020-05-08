@@ -134,7 +134,7 @@
         };
     </script>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Quadtratic Spline</h1>
         <form name="theForm">
             <textarea name="output" id='result' tabindex="1" rows=10></textarea>
@@ -148,7 +148,7 @@
                 <label for="x">Find fx) for x=</label><input type="text" id="x" name="x" size=10 value="" tabindex="2">
                 <label for="line"> line through 1st 2 points: </label><input name="line" id="line" type="checkbox" onClick="calc1()" title="line thru first two points" checked>
 
-                <input name="graphbut" Value="graph" type="button" onClick="calc1();window.open('graphs.htm')" title="send screen to grapher">
+                <input name="graphbut" Value="graph" type="button" onClick="calc1();window.open('graphs.php')" title="send screen to grapher">
             </div>
             <div id="saveload">
                 <input name="savebut" Value="Save" type="button" onClick="savestuff();document.theForm.input.focus()" />

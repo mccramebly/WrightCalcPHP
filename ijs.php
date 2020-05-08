@@ -289,7 +289,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <h2>JavaScript Console</h2>
         <form name="theForm">
             <p>Mode: <input id='mode' type="text" readonly size=9 name="mode" value="Command" onClick="setmode(-1)"></p>

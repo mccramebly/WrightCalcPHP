@@ -12,7 +12,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <script>
             function w(x) {
                 i = x;

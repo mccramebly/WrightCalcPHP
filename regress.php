@@ -71,7 +71,7 @@
         };
         // ----------------------------------------------------------------------------------
         function callprob() {
-            window.open('probability.htm?' + probmean + '&' + probsdev)
+            window.open('probability.php?' + probmean + '&' + probsdev)
         }
         // ----------------------------------------------------------------------------------
         function calc() {
@@ -803,7 +803,7 @@
 <body onLoad="self.focus();document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Two Variable Statistics &amp; Regression</h1>
         <form name="theForm">
             <textarea id="output" name="output" rows=25 cols=80 tabindex=0>Notes on input:
@@ -840,14 +840,14 @@ x:  \y:  \f:  \xy:  \xf:  \xyf:  \o: 1 \u:  \v:  \w:  \x=  \y=  \\
         <div class="pass">
             <h2>Use These Calculations With:</h2>
             <ul>
-                <li><a href="#" onClick="grph=1; calc(); window.open('graphs.htm')" class="isDisabled">Line Graph</a></li>
-                <li><a href="#" onClick="grph=5; calc(); window.open('q.spline.htm'+'?&')" class="isDisabled">Q-Spline</a></li>
+                <li><a href="#" onClick="grph=1; calc(); window.open('graphs.php')" class="isDisabled">Line Graph</a></li>
+                <li><a href="#" onClick="grph=5; calc(); window.open('q.spline.php'+'?&')" class="isDisabled">Q-Spline</a></li>
             </ul>
         </div>
         <div class="other">
             <h2>Other Resources</h2>
             <ul>
-                <li><a href="stats.htm">One Variable Statistics</a></li>
+                <li><a href="stats.php">One Variable Statistics</a></li>
             </ul>
         </div>
     </div>

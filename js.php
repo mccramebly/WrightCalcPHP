@@ -14,7 +14,7 @@
     <body>
         <?php include('nav.html'); ?>
         <div class="calcmenu">
-            <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+            <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <textarea name="input" rows=25 cols = 68></textarea>
         </form>

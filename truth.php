@@ -277,7 +277,7 @@
             document.theForm.input.value = jsrun;
             savestuff('ijs')
             document.theForm.input.value = ""
-            window.open('edit.htm?ijs')
+            window.open('edit.php?ijs')
         }
         // ---------------------------------------------------*/
         function cut() {
@@ -330,7 +330,7 @@
         // ---------------------------------------------------*/
     </script>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h2>Statements / Arguments</h2><input name="clearbut" Value="Clear All" type="button" onClick="clere()" title="Clear" />
 

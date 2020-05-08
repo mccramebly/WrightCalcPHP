@@ -12,7 +12,7 @@
     <?php include('nav.html'); ?>
 
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <p>Here is the start of the first assignment for ENGR 190:</p>
 
         <pre>
@@ -38,7 +38,7 @@ pr("Forward of error [O(h)]: "+(f(x+h)-f(x))/h)
 pr("End of Assignment 1") // print statement at the end to make sure your program ran correctly
 </script>
 </pre>
-        <p><a href="still.more.js.html" target="_blank">Still More JS</a></p>
+        <p><a href="still.more.js.php" target="_blank">Still More JS</a></p>
 
     </div>
 </body>

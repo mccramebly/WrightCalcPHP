@@ -15,7 +15,7 @@
 <body id="linear" onLoad="self.focus();document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Systems of Linear Equations</h1>
         <form name="theForm">
             <textarea id="output" name="output" tabindex=0>
@@ -150,7 +150,7 @@ y + z =1</textarea>
             calc();
             vennparm = ''
             for (i1 = 0; i1 < coef.length - 1; i1++) vennparm += ';' + (-coef[i1][xxn] / coef[i1][i1])
-            window.open('venn.htm?A;B;C' + vennparm)
+            window.open('venn.php?A;B;C' + vennparm)
         }
         // --------------------------
         function dotrimid() {
@@ -486,7 +486,7 @@ y + z =1</textarea>
                 savelines = "x: " + (X1 - 1) + " to " + (X2 + 1) + "\n y: " + (Y1 - 1) + " to " + (Y2 + 1) + "\n" + savelines + "\n" + alllines
                 val1 = escape(savelines.replace(/\n/g, "<nl>").replace(/[;&]/g, "<sc>"))
                 localStorage.setItem("graphdata", val1)
-                window.open("graphs.htm")
+                window.open("graphs.php")
             }
         }
         // --------------------------
@@ -496,7 +496,7 @@ y + z =1</textarea>
             trimid = false
             val1 = escape(graphdata.replace(/\n/g, "<nl>").replace(/[;&]/g, "<sc>"))
             localStorage.setItem("graphdata", val1)
-            window.open("graphs.htm")
+            window.open("graphs.php")
         }
         // --------------------------
         function calc1() {

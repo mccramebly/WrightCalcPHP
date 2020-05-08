@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <?php include('nav.html'); ?>
     <script type="text/javascript" src="myfunctions.js"></script>
     <script>
         degrees = false
@@ -116,7 +117,7 @@
             val1 = "x:" + x1g + " to " + x2g + ";y:" + y1g + " to " + y2g + ";" + graphdata;
             val1 = escape(val1.replace(/\n/g, "<br>").replace(/;/g, "<sc>"))
             localStorage.setItem("graphdata", val1)
-            window.open('graphs.htm')
+            window.open('graphs.php')
             return
         }
         // -------------------------------------------------------
@@ -492,7 +493,7 @@
     </script>
     <link REL="SHORTCUT ICON" HREF="favicon.ico">
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
 
             <h1>Find zeroes of a function</h1>

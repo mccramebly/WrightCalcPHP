@@ -13,7 +13,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h2>SONAR</h2>
             <input id='mode' type="text" readonly name="mode" size=9 value="Command" onClick="setmode(-1)">

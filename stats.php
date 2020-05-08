@@ -71,7 +71,7 @@
         };
         // ----------------------------------------------------------------------------------
         function callprob() {
-            window.open('continuous.htm?' + probmean + '&' + probsdev)
+            window.open('continuous.php?' + probmean + '&' + probsdev)
         }
         // ----------------------------------------------------------------------------------
         function calc() {
@@ -645,7 +645,7 @@
 <body onLoad="self.focus();document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>One Variable Statistics</h1>
         <form name="theForm">
             <textarea id="output" name="output">Input for 1 var stats:
@@ -680,9 +680,9 @@ x:  \f:  \xf:  \v:  \w:  \x=  \\
         <div class="pass">
             <h2>Use These Calculations With:</h2>
             <ul>
-                <li><a href="#" onClick="grph=2; calc(); window.open('graphs.htm')">Bar Graph</a></li>
-                <li><a href="#" onClick="grph=3; calc(); window.open('graphs.htm')">Box &amp; Whiskers Chart</a></li>
-                <li><a href="#" onClick="grph=4; calc(); window.open('graphs.htm')">Pie Chart</a></li>
+                <li><a href="#" onClick="grph=2; calc(); window.open('graphs.php')">Bar Graph</a></li>
+                <li><a href="#" onClick="grph=3; calc(); window.open('graphs.php')">Box &amp; Whiskers Chart</a></li>
+                <li><a href="#" onClick="grph=4; calc(); window.open('graphs.php')">Pie Chart</a></li>
                 <li><a href="#" onClick="calc(); callprob()">Probability Calculations</a></li>
             </ul>
 
@@ -690,7 +690,7 @@ x:  \f:  \xf:  \v:  \w:  \x=  \\
         <div class="other">
             <h2>Other Resources</h2>
             <ul>
-                <li><a href="regress.htm">2 Var Statistics &amp; Regression</a></li>
+                <li><a href="regress.php">2 Var Statistics &amp; Regression</a></li>
             </ul>
         </div>
 

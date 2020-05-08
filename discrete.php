@@ -152,7 +152,7 @@
             }
             savepicks += '            --------- --------- ---------- ---------- expected value\n'
             document.theForm.output.value = savepicks + 'totals:     ' + cols(N, 9) + cols(NX, 9) + cols(my(P), 10) + cols(my(E), 10) + '= ' + NX + '/' + N + '\n'
-            if (xstats) window.open('stats.htm?' + statsxf + ' \\w: \\\\')
+            if (xstats) window.open('stats.php?' + statsxf + ' \\w: \\\\')
         }
         // ---------------------------------------------------*/
         function dicetoss(x, f) {
@@ -193,7 +193,7 @@
             }
             document.theForm.output.value += '\n---- ----- --------------------- ---------------------'
             document.theForm.output.value += '\n' + cols(tY, 4) + '/' + cols(xTOT, 4) + cols(my(tz), 21) + cols(my(tiz), 21) + '\n'
-            if (xstats) window.open('stats.htm?' + statsxf + ' \\w: \\\\')
+            if (xstats) window.open('stats.php?' + statsxf + ' \\w: \\\\')
         }
         // ---------------------------------------------------*/
         function boxpick(mm, nn) {
@@ -286,7 +286,7 @@
                 document.theForm.output.value += "      -------- --------- --------- --------- --------- --------- ---------\n";
                 document.theForm.output.value += Sigma + "     " + cols(sn, 8) + cols(my(sy), 9) + "                    " + (cols(my(ey), 9)) + "\n"
                 document.theForm.output.value += mu + " =(n p) = " + round4(binn * binp) + ";  " + sigma + P2 + " = " + "( n p q ) = " + round4(binn * binp * binq) + ";  " + sigma + " = " + radical + "( n p q ) = " + round4(sqrt(binn * binp * binq)) + "\n"
-                if (xstats) window.open('stats.htm?' + statsxf + ' \\w: \\\\')
+                if (xstats) window.open('stats.php?' + statsxf + ' \\w: \\\\')
                 if (binp * binn < 5) {
                     document.theForm.output.value += "p*n=" + round4(binp * binn) + " is < 5; do not use the Normal Approximation";
                     return
@@ -347,7 +347,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="calcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <h1>Discrete Distribution</h1>
         <form name="theForm">
             <textarea name="output" rows=25 cols=68 onkeyup="enter(event)"></textarea>
@@ -365,7 +365,7 @@
             <input name="calc1" type="button" value="Enter" onClick="calcnr()" />
 
             <br><br><br>
-            <h2><a href="javascript: window.open('2dice.htm','','top=100,left=100')">Dice</a> </h2>
+            <h2><a href="javascript: window.open('2dice.php','','top=100,left=100')">Dice</a> </h2>
             <label for="noOfDice">Number of Dice:</label>
             <input class="shortinput" type="text" id="noOfDice" name="noofdice" size=1 value="2" onClick="noofdice.value=(Number(noofdice.value)+1); noofdice.select()"> <br><br>
             <label for="faces">Number of Faces:</label>
@@ -373,7 +373,7 @@
             <input name="DiceToss" type="button" value="Enter" onClick="fixandor(); doit(2)">
             <br><br>
 
-            <h2><a href="javascript: window.open('box.htm','','top=100,left=100')">Box</a></h2>
+            <h2><a href="javascript: window.open('box.php','','top=100,left=100')">Box</a></h2>
             <label for="boxTypes">Types:</label>
             <input class="shortinput" type="text" id="boxTypes" name="boxtype" size=1 value="4" onClick="boxtype.value=(Number(boxtype.value)+1); boxtype.select()"><br><br>
             <label for="boxpick">Pick:</label>
@@ -381,14 +381,14 @@
             <input name="boxdo" type="button" value="Enter" onClick="doit(9)">
             <br><br>
 
-            <h2><a href="javascript: window.open('10coins.htm','','top=100,left=100')">Coins (Binomial)</a></h2>
+            <h2><a href="javascript: window.open('10coins.php','','top=100,left=100')">Coins (Binomial)</a></h2>
             <label for="binn">n:</label>
             <input class="shortinput" type="text" id="binn" name="binn" size=1 value="10" onClick="binn.value=(Number(binn.value)+1); binn.select()"><br><br>
             <label for="binp">p:</label>
             <input class="shortinput" type="text" id="binp" name="binp" size=1 value="0.5">
             <input name="Binomial" type="button" value="Enter" onClick="doit(4)"><br><br>
 
-            <h2><a href="javascript: window.open('urn.htm','','top=100,left=100')">Urn</a></h2>
+            <h2><a href="javascript: window.open('urn.php','','top=100,left=100')">Urn</a></h2>
 
             <label for="blueballs"># X:</label>
             <input class="shortinput" type="text" id="blueballs" name="blueballs" size=1 value="6" onClick="blueballs.value=(Number(blueballs.value)+1); blueballs.select()"> <br><br>

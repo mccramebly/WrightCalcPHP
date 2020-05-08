@@ -15,9 +15,9 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <form name="theForm">
-            <input type="text" name="probno" size=6 value='' onClick="euload()" /> <input name='run' type="button" value="run" onClick="eucall()" /> <A href="index.htm" target="_blank"> <img src="menu.bmp" alt="Main Menu" title="load Main Menu" /></A>
+            <input type="text" name="probno" size=6 value='' onClick="euload()" /> <input name='run' type="button" value="run" onClick="eucall()" />
             <table border=1 noshade bgcolor=99CC66>
                 <tr>
                     <td><textarea name="input" rows=25 cols=80></textarea></td>

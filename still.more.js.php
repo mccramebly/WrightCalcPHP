@@ -11,7 +11,7 @@
 <body>
     <?php include('nav.html'); ?>
     <div class="artmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <p>Look at the code on this page. It is the kind of code you should NEVER NEVER write.</p>
         <pre>
 &lt;html>&lt;body>&lt;script type="text/javascript">

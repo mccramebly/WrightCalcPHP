@@ -406,7 +406,7 @@
     <?php include('nav.html'); ?>
     <form name="theForm">
         <div class="widecalcmenu">
-            <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+            <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
             <h1>Logic Puzzles</h1>
             <input name="calcbut" Value="LOAD" type="button" onClick="loadall()" /><input name="resetbut" Value="RESET" type="button" onClick="resetall()" /><input name="cluebut" Value="CLUES" type="button" onClick="clues()" /><br><br>
             <h2>Solution</h2>

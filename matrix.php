@@ -330,7 +330,7 @@
 <body onload="self.focus();">
     <?php include('nav.html'); ?>
     <div class="widecalcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h1>Matrix Math</h1>
 

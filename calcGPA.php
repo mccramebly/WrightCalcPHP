@@ -51,7 +51,7 @@
         }
     </script>
     <div id="calctainer">
-        <a href="index.htm"><img class="calcheader" src="assets/calcheadertrim.png"></a>
+        <a href="index.php"><img class="calcheader" src="assets/calcheadertrim.png"></a>
         <h1>Projected GPA Calculator</h1>
         <form name="theForm">
             <p id="input">If you have already taken <input type="text" name="a" size=12 tabindex="1" onblur="doa=false; calc()" onKeyUp="enter(event)"> credit hours in which you have a <input type="text" name="b" size=12 tabindex="2" onblur="doa=true; calc()" onKeyUp="enter(event)"> GPA then if you get an "A" in this many additional credit hours, your GPA will be:</p>

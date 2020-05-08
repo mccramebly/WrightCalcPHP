@@ -11,13 +11,13 @@
 <body onLoad="self.focus()">
     <?php include('nav.html'); ?>
     <div class="widecalcmenu">
-        <a href="index.htm"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <script type="text/javascript" src="myfunctions.js"></script>
         <form name='ss'>
 
 
             <h1>Venn Diagram</h1>
-            <input name="clear" type="button" value="Clear ALL" onClick="window.open('venn.htm','_self')" /><input name="demobut" type="button" value="DEMO" onClick="demo()" /> &nbsp; <input name="pcntbut" type="button" value="PCNT" onClick="pcnt()" /> &nbsp; <br><br>
+            <input name="clear" type="button" value="Clear ALL" onClick="window.open('venn.php','_self')" /><input name="demobut" type="button" value="DEMO" onClick="demo()" /> &nbsp; <input name="pcntbut" type="button" value="PCNT" onClick="pcnt()" /> &nbsp; <br><br>
 
             <h2>A</h2>
             <label>A:</label><input type='text' name='nA' size=15 tabindex="1" value="A" onblur='legend()'><br>
