@@ -798,6 +798,8 @@
     <link REL="SHORTCUT ICON" HREF="favicon.ico">
     <link rel="stylesheet" href="assets/html5reset-1.6.1.css">
     <link rel="stylesheet" href="assets/simple-calc-style.css">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body onLoad="self.focus();document.theForm.input.focus();">

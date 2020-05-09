@@ -325,6 +325,8 @@
         }
     </script>
     <link rel="SHORTCUT ICON" href="favicon.ico">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body onload="self.focus();">

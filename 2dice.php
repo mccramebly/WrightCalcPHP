@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="assets/articlestyles.css">
     <meta charset="utf-8">
     <link REL="SHORTCUT ICON" HREF="favicon.icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -88,7 +91,7 @@
                 </td>
             </tr>
         </table>
-            <img src="assets/dice.jpg" alt="Two Wooden Dice" title="Photo by lonso97 on Unsplash" width="210" height="339">
+        <img src="assets/dice.jpg" alt="Two Wooden Dice" title="Photo by lonso97 on Unsplash" width="210" height="339">
         <a href="probability.php" class="returnLink">Return to Discrete Distribution</a>
 
 

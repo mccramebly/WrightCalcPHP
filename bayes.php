@@ -7,6 +7,9 @@
     <link rel="SHORTCUT ICON" href="favicon.ico">
     <link rel="stylesheet" href="assets/articlestyles.css">
     <script type="text/javascript" src="myfunctions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body onLoad="self.focus();document.ss.venn2.focus();">

@@ -59,6 +59,8 @@
                 if (!isNaN(soda[x])) pr(x + ": " + soda[x])
         }
     </script>
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

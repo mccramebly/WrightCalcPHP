@@ -8,6 +8,8 @@
     <script type="text/javascript" src="ijs.js"></script>
     <link rel="stylesheet" href="assets/html5reset-1.6.1.css">
     <link rel="stylesheet" href="assets/articlestyles.css">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

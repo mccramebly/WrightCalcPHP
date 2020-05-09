@@ -10,6 +10,8 @@
     <script type="text/javascript" src="matrix.js"></script>
     <script type="text/javascript" src="statfns.js"></script>
     <!-- <SCRIPT type="text/javascript" src="primes.js"></script> -->
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="euler">
@@ -18,9 +20,9 @@
         <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
         <form name="theForm">
             <input type="text" name="probno" size=6 value='' onClick="euload()" /> <input name='run' type="button" value="run" onClick="eucall()" />
-            
+
             <textarea name="input" rows=25 cols=80></textarea>
-                
+
         </form>
         <script>
             menu = [

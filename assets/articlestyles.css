@@ -383,6 +383,10 @@ a.backToTop:before {
 #annualDuesCalc label {
     width:auto;
 }
+
+#ODE div .clearFloat label {
+    clear:left;
+}
 /*label
 {
     float: left;

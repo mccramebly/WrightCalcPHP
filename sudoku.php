@@ -997,6 +997,8 @@
         }
     </style>
     <link REL="SHORTCUT ICON" HREF="favicon.ico">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body onLoad="self.focus();inputgame();savework();document.theForm.b4.focus()">

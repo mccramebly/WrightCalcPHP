@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/articlestyles.css">
     <link REL="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
-<body onLoad="self.focus(); document.theForm.input.focus();">
+<body id="ODE" onLoad="self.focus(); document.theForm.input.focus();">
     <?php include('nav.html'); ?>
     <script type="text/javascript" src="myfunctions.js"></script>
     <link REL="shortcut icon" href="favicon.ico">
@@ -16,6 +18,7 @@
         <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
         <form name="theForm">
             <h1>Initial Value ODE</h1>
+            <span class="clearFloat">
             <label>f'(x) = </label>
             <input type="text" name="input" tabindex="1" onKeyUp="enter(event)">
             <label>Left x= </label><input type="text" name="x1" size=8 value="" tabindex="3" />
@@ -24,15 +27,15 @@
             <label>n = </label><input type="text" name="xn" size=3 value="" tabindex="6" />
 
 
-            <label>Euler</label><input type="checkbox" name="Eul" />
+            <label>Euler</label></span><input type="checkbox" name="Eul" />
             <label>Midpoint</label><input type="checkbox" name="Mid" />
             <label>Heun</label><input type="checkbox" name="Heu" />
             <label>RK3</label><input type="checkbox" name="RK3" /> <br>
             <label>RK4</label><input type="checkbox" name="RK4" checked /> <br><br><br>
 
-            <label>Butcher A: </label><input type='text' name="bta" size=20 value="[[],[.5],[0,.5],[0,0,1]]"><br>
+            <label>Butcher A: </label><input type='text' name="bta" size=20 value="[[],[.5],[0,.5],[0,0,1]]"><br><span class="clearFloat">
             <label>Tableau B: </label><input type='text' name="btb" size=15 value="[1,2,2,1]">
-            <label>Tableau B Toggle:</label><input type="checkbox" name="But" /><br><br><br>
+            <label>Tableau B Toggle:</label><input type="checkbox" name="But" /></span><br><br><br>
 
             <input name="clear" type="button" value="Calc" onClick="cla();calc1()" tabindex="0" />
             <input type="button" value="8 place" id="frac" onClick="swfrac(true,4)" title="output format" />

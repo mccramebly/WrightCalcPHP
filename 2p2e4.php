@@ -6,6 +6,9 @@
     <link REL="SHORTCUT ICON" HREF="favicon.ico">
     <title>Two + Two = Four</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- additonal HTML not needed for the solution of the problem -->

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="assets/articlestyles.css">
     <meta charset="utf-8">
     <title>FÁRAÓK KINCSE</title>
-    <script type="text/javascript">
+    <script>
         var code
         var rows4
         var rows5
@@ -130,6 +130,8 @@
             }
         }
     </script>
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body onload="self.focus();">

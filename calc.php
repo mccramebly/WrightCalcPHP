@@ -11,6 +11,9 @@
     <script src="matrix.js"></script>
     <link rel="stylesheet" href="assets/html5reset-1.6.1.css">
     <link rel="stylesheet" href="assets/complex-calc.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navstyles.css">
+    <script src="https://kit.fontawesome.com/618d53ce21.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="sciCalc">
