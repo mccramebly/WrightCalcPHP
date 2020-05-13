@@ -569,7 +569,7 @@
             <input name="clear" type="button" value="Clear" onClick="cla()">
             <input name="save" type="button" value="Save" onClick="savestuff('',document.theForm.output.value)">
             <input type="button" value="graph" id="dograph" onClick="graph()" title="show graph" />
-            <label for="parm">Parameters</label><input type="radio" name="CItype" value="Parm" id="parm" Checked />
+            <label for="parm" style=clear:left;>Parameters</label><input type="radio" name="CItype" value="Parm" id="parm" Checked />
             <label for="stat">Statistics</label><input type="radio" id="stat" name="CItype" value="Stat" /><br>
             <label for="mean">μ(Mean)</label>
             <input type="text" id="mean" name="mean" size=10 value="0" tabindex=1> <br>

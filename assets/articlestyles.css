@@ -92,6 +92,8 @@ th{
 
 pre {
     clear:left;
+    max-width:100%;
+    overflow-x: scroll;
 }
 .calcmenu {
     background:#f1f1f1;
@@ -245,7 +247,7 @@ input[type=checkbox]{
 textarea{
     float: left;
     border-radius: 5px;
-    width:100%;
+    max-width:100%;
 }
 
 /*grid*/

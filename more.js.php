@@ -14,7 +14,7 @@
     <?php include('nav.html'); ?>
     <div class="artmenu">
         <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
-        Here are some other considerations.<ul>
+        Here are some other considerations:<ul>
             <li>Some Browsers may require additional header information.</li>
             <li>The assignment may tell you to assign some values before the rest of your program</li>
             <li>You might want to simplify your life by defining the function pr()</li>
