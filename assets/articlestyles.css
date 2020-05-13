@@ -354,8 +354,7 @@ a.backToTop:before {
 }
 
 #whycontainer .artmenu {
-    width:85%;
-    
+    width:85%; 
 }
 
 
@@ -386,6 +385,12 @@ a.backToTop:before {
 
 #ODE div .clearFloat label {
     clear:left;
+}
+
+.tencoins {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding-bottom:10px;
 }
 /*label
 {

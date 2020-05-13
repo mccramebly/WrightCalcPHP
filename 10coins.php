@@ -15,11 +15,13 @@
 
 <body>
     <?php include('nav.html'); ?>
-    <div class="widecalcmenu">
-        <a href="index.php"><img class="artmenuheader" src="assets/calcheaderlight.png"></a>
-        <h1>10 Coins</h1>
-        <div>
+    <div class="artmenu">
+        <a href="index.php"><img class="artmenuheader" src="assets/calcheader.png"></a>
+        <h2>10 Coins</h2>
+        <div class="tencoins">
+            <div>
             <p>Examples of binomial distributions</p>
+            <br>
             <ul>
                 <li>coins: 6 heads &amp; 4 tails:
                     <ul>
@@ -32,8 +34,11 @@
                     </ul>
                 </li>
             </ul>
-            <img src="10coins.jpg" alt="ten Coins" title="ten Coins" width="350" height="250" />
+            </div>
+            <div>
+            <img src="assets/10coins.jpg" alt="ten Coins" title="ten Coins" width="350" height="250">
             <a href="probability.php" class="returnLink">Return to Discrete Distribution</a>
+            </div>
         </div>
         <table id="triangle">
             <tr>
